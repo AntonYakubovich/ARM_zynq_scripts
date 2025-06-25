@@ -1,2 +1,2 @@
 # ARM_zynq_scripts
-Bash scripts Linux system
+Bash scripts for Linux OS

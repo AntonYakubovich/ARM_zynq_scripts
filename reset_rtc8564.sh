@@ -1,4 +1,13 @@
 #!/bin/bash
+#если не поставлен i2ctools то сначала
+#sudo apt update
+#sudo apt install i2c-tools
+#перед запуском скрипта повышаем ему права
+#sudo chmod +x reset_rtc8564.sh
+#копирование папки с модулями 
+#sudo cp -r modules /lib
+
+
 echo "Сбрасываем часы на i2c шине"
 echo "выгружаем драйвер "
 sudo modprobe -r rtc_pcf8563

@@ -1,0 +1,11 @@
+[Unit]
+Description=DAS DTS web interface
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+PermissionsStartOnly=true
+ExecStart=/home/das/readonlyfix.sh
+TimeoutSec=600
+Restart=on-failure
